@@ -1,1 +1,1 @@
-# wyrick-cydia2019
+# Wyricks-Development

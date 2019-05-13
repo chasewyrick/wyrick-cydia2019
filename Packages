@@ -1,0 +1,185 @@
+Package: co.dynastic.tsssaver
+Name: TSS Saver
+Architecture: iphoneos-arm
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Author: Jamie Bishop <jamie@dynastic.co>
+Section: Utilities
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Version: 1.2.0
+Installed-Size: 444
+
+Package: com.aids.makecydiabuyagain
+Name: MakeCydiaBuyAgain
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enable Cydia to purchase any package on iOS 11+
+Maintainer: Jake Ihasz
+Author: Jake Ihasz
+Section: Tweaks
+Version: 1.0.1-2+debug
+Installed-Size: 72
+
+Package: com.bingner.snappy
+Name: Snappy
+Depends: 
+Architecture: iphoneos-arm
+Description: A Tool for APFS Snapshot Management
+Maintainer: Samuel Bingner
+Author: Samuel Bingner
+Section: System
+Tag: role::hacker
+Version: 1.0
+Installed-Size: 68
+
+Package: com.creaturecoding.bubbles
+Name: bubbles
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Description: Make your Messages pop!
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: Tweaks
+dev: CreatureSurvive
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturesurvive.github.io/repo/cydia/bubbles/depiction/
+Icon: 
+Version: 0.2.2b
+Installed-Size: 376
+
+Package: com.creaturecoding.libcspreferences
+Name: libCSPreferences
+Depends: preferenceloader, mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome Preference Library!
+Depiction: https://creaturesurvive.github.io/repo/cydia/libcspreferences/depiction/
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Tag: role::developer
+Version: 0.9.9.9
+Installed-Size: 1624
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.7.0
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Name: CallBlocker
+Package: com.imkpatil.callblocker
+Priority: optional
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Block annoying Callers!
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callblockerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callblockerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Kiran Patil <patilkiran08@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 196
+dev: imkpatil
+Icon: file:///Library/Application%20Support/CallBlocker/icon.png
+
+Package: com.iphonecake.AppCake6
+Name: AppCake
+Version: 6.1.3
+Architecture: iphoneos-arm
+Description: The new AppCake 6! For iOS 11 & 12 Jailbreak.
+Depiction: https://www.iphonecake.com/mobileapp/appcake6/
+SileoDepiction: https://www.iphonecake.com/mobileapp/appcake6/sileo/appcake.json
+Author: hotsjf 
+Section: Utilities
+Pre-Depends: firmware (>= 9.0)
+Depends: appsync
+Icon: file:///Applications/AppCake.app/icon57x57.png
+Maintainer: AppCake
+
+Package: com.itaysoft.icaughtuxii
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, firmware (>= 11.0), com.rpetrich.rocketbootstrap
+Conflicts: com.itaysoft.icaughtu, com.itaysoft.icaughtupro, com.itaysoft.icaughtupro8, com.itaysoft.icaughtupro9, com.itaysoft.icaughtupro10
+Replaces: com.itaysoft.icaughtu, com.itaysoft.icaughtupro, com.itaysoft.icaughtupro8, com.itaysoft.icaughtupro9, com.itaysoft.icaughtupro10
+Name: iCaughtU 12
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: The most complete tweak to enhance the security of your Device
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icaughtupro12Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icaughtupro12Dp
+Installed-Size: 1222
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Itay <support@itaysoft.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: itay
+Tag: cydia::commercial, purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/iCaughtUXII.bundle/iCaughtU_12@2x.png
+
+Author: Waz <m.wazowski.00@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: iWep PRO 8
+Package: com.iwazowski.iweppro5
+Depends: firmware (>= 5.0)
+Section: Networking
+Installed-Size: 2012
+Version: 8.8.5-368
+Architecture: iphoneos-arm
+Description: First iOS WiFi Auditor Application
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: wazowski
+Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
+Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+
+Author: Jake James <jakeashacks@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: CatchaThief
+Package: com.jakeashacks.catchathief
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Section: Tweaks
+Installed-Size: 129
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Take a picture of whoever inputs an incorrect passcode!
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=catchathiefDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=catchathiefDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: jakeashacks
+Tag: purpose::extension, compatible::ios11
+
+Author: John Coates <john@johncoates.me>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Flex 3
+Package: com.johncoates.Flex3
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Recommended: com.modmyi.libswift4 (>= 4.0.3)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Section: Tweaks
+Installed-Size: 57210
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: acapulco1988
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+
